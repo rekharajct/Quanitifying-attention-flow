@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Description
 
-This directory contains the implementation of the paper Quantifying Attention Flow in Transformers by Samira Abnanar and Willem Zuidema      
+This directory contains the Pytorch implementation of the paper Quantifying Attention Flow in Transformers by Samira Abnanar and Willem Zuidema. We have used the repository https://github.com/samiraabnar/attention_flow       
      
      
 ## To train the verb-number classifier
