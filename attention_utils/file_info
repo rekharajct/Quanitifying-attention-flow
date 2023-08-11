@@ -1,0 +1,5 @@
+run_bert_sv_v3: final code
+tfds_data/tal_agreement.ipynb: dataset generation
+tfds_data/data/word_sv_agreement: dataset
+attention_graph_util: compute raw attention, attention rollout, flow
+notebooks/eval_sv_agreement.ipynb: classification
