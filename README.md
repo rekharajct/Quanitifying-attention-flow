@@ -15,7 +15,10 @@ python bert_sv_train.py
 python sv_find_attention.py
 ```
 ## To get the results of correlation scores
-```python sv_attention_results_sci_raw_sum.py
+
+```
+python sv_attention_results_sci_raw_sum.py
+
 ```
 
 
