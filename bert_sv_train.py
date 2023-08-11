@@ -106,7 +106,7 @@ test_dataloader = torch.utils.data.DataLoader(test_dataset, **kwargs)
 
 torch.manual_seed(0)
 
-#---------load pretrained BERT model
+#---------BERT model--------------------
 bert_model = BERT(n_layers=n_layers,
         n_heads=n_heads,
         embed_size=embed_size, 
@@ -117,7 +117,7 @@ bert_model = BERT(n_layers=n_layers,
         dropout=dropout,
         grad_idx=grad_index) #create BERT object
 
-if load_bert_pretrain:
+if load_bert_pretrain: #if load pretrained model
     bert_model_state_dict = torch.load(bert_model_path) #load state dict
     bert_model.load_state_dict(bert_model_state_dict) # load state dict onto the model
 
