@@ -23,6 +23,19 @@ python sv_attention_results_sci_raw_sum.py
 
 ## References
 ```
-[Quantifying Attention Flow in Transformers](https://aclanthology.org/2020.acl-main.385) (Abnar & Zuidema, ACL 2020)
+@inproceedings{abnar-zuidema-2020-quantifying,
+    title = "Quantifying Attention Flow in Transformers",
+    author = "Abnar, Samira  and
+      Zuidema, Willem",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.385",
+    doi = "10.18653/v1/2020.acl-main.385",
+    pages = "4190--4197",
+    
+}
 
 ```
