@@ -1,0 +1,23 @@
+To train bert 
+bert folder
+----------------
+run: python bert/bert_mlm_train.py 
+build_vocab: build vocabulary from the data
+dataset: Dataset class
+model: BERT model
+optim schedule: learning rate scheduler
+trainer: Trainer class
+
+---------------------
+sv_model.py: model of sv_classifier
+sv_trainer.py trainer class for classifier
+model.py: bert model used by classifier
+
+To train sv classifier run: python bert_sv_train.py
+
+Exp: SV classifier, with gradients w.r.t svc logits and w.r.t bert actual verb.
+vocabulary changed to train data vocabulary
+no pretrained bert
+Change from previous:
+input embedding is computed at classifier insted of at BERT
+
